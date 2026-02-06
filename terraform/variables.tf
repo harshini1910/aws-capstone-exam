@@ -30,15 +30,15 @@ variable "instance_type" {
 
 # Define EC2 Key Pair Name
 
+# Define EC2 Key Pair Name
 variable "key_name" {
-  description = "EC2 Key Pair Name"
+  description = "EC2 key pair name"
   type        = string
-  default     = "new-virg"
 }
 
 # Define Jenkins Server Public IP (to be passed during terraform apply)
 variable "jenkins_ip" {
   description = "The public IP address of the Jenkins server"
   type        = string
-  default     = "35.173.188.229"  # Leave default empty, it will be passed via pipeline
+  default     = ""  # Leave default empty, it will be passed via pipeline
 }
