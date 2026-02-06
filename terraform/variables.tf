@@ -30,7 +30,7 @@ variable "instance_type" {
 
 # Define EC2 Key Pair Name
 variable "key_name" {
-  description = "EC2 key pair name"
+  description = "new-virg"
   type        = string
 }
 
